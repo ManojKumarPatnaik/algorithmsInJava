@@ -7,6 +7,9 @@ class Vertex implements Comparable<Vertex> {
     private String name;
     private double distance;
 
+    public Vertex() {
+    }
+
     public Node getNode() {
         return node;
     }
