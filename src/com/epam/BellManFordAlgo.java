@@ -19,7 +19,6 @@ public class BellManFordAlgo {
     public void solve(Vertex source) {
         source.setDistance(0);
         for (int i = 0; i < vertexList.size() - 1; i++) {
-
             for (Edge edge : edgeList) {
                 Vertex targetVertex = edge.getTargetVertex();
                 Vertex sourceVertex = edge.getSourceVertex();
